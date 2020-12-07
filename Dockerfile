@@ -1,4 +1,4 @@
-FROM fedora:31
+FROM fedora
 
 EXPOSE 8080
 
