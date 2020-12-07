@@ -2,7 +2,6 @@ FROM fedora:31
 
 EXPOSE 8080
 
-RUN yum update -y
 RUN yum install -y subversion-javahl
 RUN yum install -y java-11-openjdk-devel
 RUN yum install -y maven
