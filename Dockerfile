@@ -2,10 +2,10 @@ FROM fedora
 
 EXPOSE 8080
 
-RUN yum install subversion-javahl
-RUN yum install java-11-openjdk-devel
-RUN yum install maven
-RUN yum clean all
+RUN sudo yum install subversion-javahl
+RUN sudo yum install java-11-openjdk-devel
+RUN sudo yum install maven
+RUN sudo yum clean all
 
 COPY pom.xml .
 COPY src src
