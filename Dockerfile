@@ -1,4 +1,3 @@
-Customer is trying to deploy an app using the below Dockerfile:
 FROM fedora:33
 EXPOSE 8080
 RUN yum update -y
